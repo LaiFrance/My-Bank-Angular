@@ -1,3 +1,7 @@
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+
 # Bytebank
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
