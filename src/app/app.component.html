@@ -1,26 +1,2 @@
 <app-nova-transferencia (aoTransferir)="transferir($event)"></app-nova-transferencia>
-
-<form class="dados">
-  <div class="screen">
-
-    <div class="screen__content">
-      <div class="login">
-        <div class="login__field">
-          <i class="login__icon fas fa-user"></i>
-
-          <h2>Dados</h2>
-          <div>
-            <p>Valor:{{transferencia?.valor}}</p>
-          </div>
-        </div>
-        <div class="login__field">
-          <i class="login__icon fas fa-lock"></i>
-          <div>
-            <p>Destino:{{transferencia?.destino}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</form>
-
+<app-extrato [transferencias]="transferencias"></app-extrato>
