@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
 import { ExtratoComponent } from './extrato/extrato.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NovaTransferenciaComponent,
-    ExtratoComponent
+    ExtratoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
